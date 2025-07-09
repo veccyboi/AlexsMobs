@@ -138,10 +138,6 @@ public class EntityDevilsHolePupfish extends WaterAnimal implements FlyingAnimal
         return 6;
     }
 
-    public boolean isMaxGroupSizeReached(int sizeIn) {
-        return false;
-    }
-
     protected void defineSynchedData() {
         super.defineSynchedData();
         this.entityData.define(FROM_BUCKET, false);

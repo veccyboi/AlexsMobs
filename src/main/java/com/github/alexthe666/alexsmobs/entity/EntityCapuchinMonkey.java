@@ -99,10 +99,6 @@ public class EntityCapuchinMonkey extends TamableAnimal implements IAnimatedEnti
         return 8;
     }
 
-    public boolean isMaxGroupSizeReached(int sizeIn) {
-        return false;
-    }
-
     public boolean checkSpawnRules(LevelAccessor worldIn, MobSpawnType spawnReasonIn) {
         return AMEntityRegistry.rollSpawn(AMConfig.capuchinMonkeySpawnRolls, this.getRandom(), spawnReasonIn);
     }

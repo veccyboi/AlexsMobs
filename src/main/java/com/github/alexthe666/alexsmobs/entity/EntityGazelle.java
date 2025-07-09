@@ -75,10 +75,6 @@ public class EntityGazelle extends Animal implements IAnimatedEntity, IHerdPanic
         return 8;
     }
 
-    public boolean isMaxGroupSizeReached(int sizeIn) {
-        return false;
-    }
-
     public boolean hurt(DamageSource source, float amount) {
         boolean prev = super.hurt(source, amount);
         if(prev){

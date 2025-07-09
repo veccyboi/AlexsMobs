@@ -73,10 +73,6 @@ public class EntityBoneSerpent extends Monster {
         return 1;
     }
 
-    public boolean isMaxGroupSizeReached(int sizeIn) {
-        return false;
-    }
-
 
     protected SoundEvent getAmbientSound() {
         return AMSoundRegistry.BONE_SERPENT_IDLE.get();

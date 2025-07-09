@@ -87,10 +87,6 @@ public class EntityCatfish extends WaterAnimal implements FlyingAnimal, Bucketab
         return 2;
     }
 
-    public boolean isMaxGroupSizeReached(int sze) {
-        return sze > 2;
-    }
-
     protected void registerGoals() {
         super.registerGoals();
         this.goalSelector.addGoal(1, new TryFindWaterGoal(this));

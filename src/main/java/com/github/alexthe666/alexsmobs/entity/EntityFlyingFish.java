@@ -91,10 +91,6 @@ public class EntityFlyingFish extends WaterAnimal implements FlyingAnimal, Bucke
         return 8;
     }
 
-    public boolean isMaxGroupSizeReached(int sizeIn) {
-        return false;
-    }
-
     @Override
     protected void defineSynchedData() {
         super.defineSynchedData();

@@ -111,10 +111,6 @@ public class EntityHummingbird extends Animal {
         return 7;
     }
 
-    public boolean isMaxGroupSizeReached(int sizeIn) {
-        return false;
-    }
-
 
     protected void registerGoals() {
         this.goalSelector.addGoal(1, new BreedGoal(this, 1));

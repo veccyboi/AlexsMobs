@@ -126,10 +126,6 @@ public class EntitySoulVulture extends Monster implements FlyingAnimal {
         return 1;
     }
 
-    public boolean isMaxGroupSizeReached(int sizeIn) {
-        return true;
-    }
-
     private void switchNavigator(boolean onLand) {
         if (onLand) {
             this.moveControl = new MoveControl(this);

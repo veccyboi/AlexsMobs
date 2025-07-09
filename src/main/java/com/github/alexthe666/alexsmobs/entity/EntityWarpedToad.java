@@ -120,10 +120,6 @@ public class EntityWarpedToad extends TamableAnimal implements ITargetsDroppedIt
         return 5;
     }
 
-    public boolean isMaxGroupSizeReached(int sizeIn) {
-        return false;
-    }
-
     public boolean checkSpawnObstruction(LevelReader worldIn) {
         return worldIn.isUnobstructed(this);
     }

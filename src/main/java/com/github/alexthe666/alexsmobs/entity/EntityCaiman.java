@@ -167,10 +167,6 @@ public class EntityCaiman extends TamableAnimal implements ISemiAquatic,IFollowe
         return 2;
     }
 
-    public boolean isMaxGroupSizeReached(int sizeIn) {
-        return false;
-    }
-
     protected SoundEvent getAmbientSound() {
         return isBaby() ? AMSoundRegistry.CROCODILE_BABY.get() : AMSoundRegistry.CAIMAN_IDLE.get();
     }

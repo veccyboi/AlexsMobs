@@ -358,10 +358,6 @@ public class EntityCosmicCod extends Mob implements Bucketable {
         return 7;
     }
 
-    public boolean isMaxGroupSizeReached(int sizeIn) {
-        return false;
-    }
-
     public boolean isGroupLeader() {
         return this.groupSize > 1;
     }

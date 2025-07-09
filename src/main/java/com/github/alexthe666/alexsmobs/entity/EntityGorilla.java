@@ -126,10 +126,6 @@ public class EntityGorilla extends TamableAnimal implements IAnimatedEntity, ITa
         return 8;
     }
 
-    public boolean isMaxGroupSizeReached(int sizeIn) {
-        return false;
-    }
-
     public boolean hurt(DamageSource source, float amount) {
         if (this.isInvulnerableTo(source)) {
             return false;

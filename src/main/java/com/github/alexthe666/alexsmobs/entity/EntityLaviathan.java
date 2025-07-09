@@ -429,10 +429,6 @@ public class EntityLaviathan extends Animal implements ISemiAquatic, IHerdPanic 
         return 1;
     }
 
-    public boolean isMaxGroupSizeReached(int sizeIn) {
-        return false;
-    }
-
     protected Vec3 getRiddenInput(Player player, Vec3 deltaIn) {
         if (player.zza != 0) {
             float f = player.zza < 0.0F ? 0.5F : 1.0F;

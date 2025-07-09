@@ -101,10 +101,6 @@ public class EntityTriops extends WaterAnimal implements ITargetsDroppedItems, B
         return 5;
     }
 
-    public boolean isMaxGroupSizeReached(int sizeIn) {
-        return false;
-    }
-
 
     protected PathNavigation createNavigation(Level worldIn) {
         return new WaterBoundPathNavigation(this, worldIn);
